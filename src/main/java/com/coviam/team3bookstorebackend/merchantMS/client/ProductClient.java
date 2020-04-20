@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "product", url = "")
+@FeignClient("http://bookstore-product.herokuapp.com/")
 public interface ProductClient {
 
 
